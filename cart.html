@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dav_Milan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!---google fonts--->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    
+
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+    
+     <!-- header -->
+     <section id="header">
+        <a href="#"><img src="img/logo2.jpg" class="logo"></a>
+
+        <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a  href="shop.html">Shop</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+            <a href="#" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </ul>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+            <i id="bar" class="fas fa-outdent"></i> 
+        </div>
+
+       
+
+    </section>
+
+    
+    <!-- hero -->
+    <section id="cart-header" >
+        <h2>#Cart</h2> 
+        <p>Place your order. Choose your favorite outfit. </p>
+    </section>
+
+ 
+   <section id="cart" class="section-p1">
+       <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> <a href="#"><i class="fas fa-times-circle"></i> </a></td>
+                <td><img src="img/products/z2.jpg"></td>
+                <td>Faux Cargo Jacket</td>
+                <td>#10,000</td>
+                <td><input type="number" value="1"></td>
+                <td>#10,000</td>
+            </tr>
+
+            <tr>
+                <td> <a href="#"><i class="fas fa-times-circle"></i> </a></td>
+                <td><img src="img/products/z1.jpg"></td>
+                <td>FGT Shirt</td>
+                <td>#7,000</td>
+                <td><input type="number" value="1"></td>
+                <td>#7,000</td>
+            </tr>
+
+            <tr>
+                <td> <a href="#"><i class="fas fa-times-circle"></i> </a></td>
+                <td><img src="img/products/c1.jpg"></td>
+                <td>Limitless Collection</td>
+                <td>#10,000</td>
+                <td><input type="number" value="1"></td>
+                <td>#10,000</td>
+            </tr>
+
+            <tr>
+                <td> <a href="#"><i class="fas fa-times-circle"></i> </a></td>
+                <td><img src="img/products/d9.jpg"></td>
+                <td>Milan Track</td>
+                <td>#7,000</td>
+                <td><input type="number" value="1"></td>
+                <td>#7,000</td>
+            </tr>
+        </tbody>
+       </table>
+
+   </section>
+
+   <section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+
+    <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>#15,000</td>
+            </tr>
+
+            <tr>
+                <td>Delivery</td>
+                <td>#1,500</td>
+            </tr>
+
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>#16,500</strong></td>
+            </tr>
+
+            
+        </table>
+        <button class="normal"> Proceed to checkout</button>
+
+    </div>
+   </section>
+
+    
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo2.jpg">
+            <h4>Contact</h4>
+            <p> <i class="fa fa-map-marker"></i> <strong> Address: </strong> 32 Cliffland Estate, Gudu, FCT</p>
+            <p>   <i class="fa fa-phone"></i><strong> Phone: </strong> +234 808 894 5782</p>
+            <p> <i class="fa fa-paper-plane"></i><strong> Hours: </strong> 24/7, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook" ></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg">
+                <img src="img/pay/play.jpg">
+            </div>
+                <p>Secure Payment Gateways </p>
+                <img src="img/pay/pay.png">
+        </div>
+
+        <div class="copyright">
+            <p>© Ben_Barkley, 2022</p>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
